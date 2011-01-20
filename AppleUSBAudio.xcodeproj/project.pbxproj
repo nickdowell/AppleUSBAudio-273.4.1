@@ -1,0 +1,820 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3027C4860AE00B1F0010BF7A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F6CA800D02AE864A01CD2599 /* InfoPlist.strings */; };
+		3027C4880AE00B1F0010BF7A /* AppleUSBAudioDevice.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 23FF4276FFDF4AD011CA29EB /* AppleUSBAudioDevice.cpp */; settings = {ATTRIBUTES = (); }; };
+		3027C48B0AE00B1F0010BF7A /* AppleUSBAudioEngine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 23FF4279FFDF4AD011CA29EB /* AppleUSBAudioEngine.cpp */; settings = {ATTRIBUTES = (); }; };
+		3027C4900AE00B1F0010BF7A /* AppleUSBAudioPlugin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D0816EF056DAFCD00D4B902 /* AppleUSBAudioPlugin.cpp */; };
+		3027C4910AE00B1F0010BF7A /* AppleUSBAudioDictionary.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AB680DFC09EB3614006DFC40 /* AppleUSBAudioDictionary.cpp */; };
+		3027C4A00AE00B1F0010BF7A /* AppleUSBAudioClip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 018BDCB1FFE73C3D11CA29EB /* AppleUSBAudioClip.cpp */; settings = {ATTRIBUTES = (); }; };
+		30BB6C410AE81F1E0033FAA7 /* libAppleUSBAudioFloatLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3027C4F20AE047AC0010BF7A /* libAppleUSBAudioFloatLib.a */; };
+		30EF0E580EE8A8F9000E6C0B /* AppleUSBAudioStream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 30EF0E570EE8A8F9000E6C0B /* AppleUSBAudioStream.cpp */; };
+		30EF0E5A0EE8A908000E6C0B /* AppleUSBAudioStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 30EF0E590EE8A908000E6C0B /* AppleUSBAudioStream.h */; };
+		B2D5DB8810B23130001E226C /* BigNum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B2D5DB8710B23130001E226C /* BigNum.cpp */; };
+		B2D5DB8A10B23138001E226C /* BigNum.h in Headers */ = {isa = PBXBuildFile; fileRef = B2D5DB8910B23138001E226C /* BigNum.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3027C4A90AE00B1F0010BF7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0B02CF11FFD831F611CE16D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3027C49D0AE00B1F0010BF7A;
+			remoteInfo = "AppleUSBAudioFloatLib (Upgraded)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0159E5E8FFF9139F11CE16D4 /* AppleUSBAudioClip.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = AppleUSBAudioClip.h; sourceTree = "<group>"; };
+		0164015F008C90BA11CE1662 /* Kernel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kernel.framework; path = /System/Library/Frameworks/Kernel.framework; sourceTree = "<absolute>"; };
+		018BDCB1FFE73C3D11CA29EB /* AppleUSBAudioClip.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = AppleUSBAudioClip.cpp; sourceTree = "<group>"; };
+		23FF4276FFDF4AD011CA29EB /* AppleUSBAudioDevice.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = AppleUSBAudioDevice.cpp; sourceTree = SOURCE_ROOT; };
+		23FF4279FFDF4AD011CA29EB /* AppleUSBAudioEngine.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = AppleUSBAudioEngine.cpp; sourceTree = SOURCE_ROOT; };
+		23FF427CFFDF4AD011CA29EB /* AppleUSBAudioCommon.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = AppleUSBAudioCommon.h; sourceTree = SOURCE_ROOT; };
+		23FF427DFFDF4AD011CA29EB /* AppleUSBAudioDevice.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = AppleUSBAudioDevice.h; sourceTree = SOURCE_ROOT; };
+		23FF4280FFDF4AD011CA29EB /* AppleUSBAudioEngine.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = AppleUSBAudioEngine.h; sourceTree = SOURCE_ROOT; };
+		23FF4283FFDF4AD011CA29EB /* ReadMe */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; path = ReadMe; sourceTree = SOURCE_ROOT; };
+		3027C49B0AE00B1F0010BF7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		3027C49C0AE00B1F0010BF7A /* AppleUSBAudio.kext */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppleUSBAudio.kext; sourceTree = BUILT_PRODUCTS_DIR; };
+		3027C4C20AE00DF60010BF7A /* AppleUSBAudioProjectProperties.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = AppleUSBAudioProjectProperties.h; sourceTree = "<group>"; };
+		3027C4F20AE047AC0010BF7A /* libAppleUSBAudioFloatLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAppleUSBAudioFloatLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		30EF0E570EE8A8F9000E6C0B /* AppleUSBAudioStream.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AppleUSBAudioStream.cpp; sourceTree = "<group>"; };
+		30EF0E590EE8A908000E6C0B /* AppleUSBAudioStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppleUSBAudioStream.h; sourceTree = "<group>"; };
+		4D0816EF056DAFCD00D4B902 /* AppleUSBAudioPlugin.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = AppleUSBAudioPlugin.cpp; sourceTree = "<group>"; };
+		4D0816F1056DAFDC00D4B902 /* AppleUSBAudioPlugin.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = AppleUSBAudioPlugin.h; sourceTree = "<group>"; };
+		AB680DFB09EB3614006DFC40 /* AppleUSBAudioDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppleUSBAudioDictionary.h; sourceTree = "<group>"; };
+		AB680DFC09EB3614006DFC40 /* AppleUSBAudioDictionary.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AppleUSBAudioDictionary.cpp; sourceTree = "<group>"; };
+		B2D5DB8710B23130001E226C /* BigNum.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BigNum.cpp; sourceTree = "<group>"; };
+		B2D5DB8910B23138001E226C /* BigNum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BigNum.h; sourceTree = "<group>"; };
+		F6CA800E02AE864A01CD2599 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; lineEnding = 0; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3027C4920AE00B1F0010BF7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30BB6C410AE81F1E0033FAA7 /* libAppleUSBAudioFloatLib.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3027C4A10AE00B1F0010BF7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B02CF12FFD831F611CE16D4 /* AppleUSBAudio */ = {
+			isa = PBXGroup;
+			children = (
+				26CD3C99FFDF4B5411CA29EB /* Classes */,
+				26CD3C9AFFDF4B5411CA29EB /* Headers */,
+				0B02CF2FFFD831F611CE16D4 /* Products */,
+				F6CA800C02AE85F701CD2599 /* Resources */,
+				23FF4283FFDF4AD011CA29EB /* ReadMe */,
+				0164015F008C90BA11CE1662 /* Kernel.framework */,
+				3027C49B0AE00B1F0010BF7A /* Info.plist */,
+			);
+			name = AppleUSBAudio;
+			sourceTree = "<group>";
+		};
+		0B02CF2FFFD831F611CE16D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3027C49C0AE00B1F0010BF7A /* AppleUSBAudio.kext */,
+				3027C4F20AE047AC0010BF7A /* libAppleUSBAudioFloatLib.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26CD3C99FFDF4B5411CA29EB /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				018BDCB1FFE73C3D11CA29EB /* AppleUSBAudioClip.cpp */,
+				3027C4C20AE00DF60010BF7A /* AppleUSBAudioProjectProperties.h */,
+				23FF4276FFDF4AD011CA29EB /* AppleUSBAudioDevice.cpp */,
+				AB680DFC09EB3614006DFC40 /* AppleUSBAudioDictionary.cpp */,
+				23FF4279FFDF4AD011CA29EB /* AppleUSBAudioEngine.cpp */,
+				30EF0E570EE8A8F9000E6C0B /* AppleUSBAudioStream.cpp */,
+				4D0816EF056DAFCD00D4B902 /* AppleUSBAudioPlugin.cpp */,
+				B2D5DB8710B23130001E226C /* BigNum.cpp */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		26CD3C9AFFDF4B5411CA29EB /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				0159E5E8FFF9139F11CE16D4 /* AppleUSBAudioClip.h */,
+				23FF427CFFDF4AD011CA29EB /* AppleUSBAudioCommon.h */,
+				23FF427DFFDF4AD011CA29EB /* AppleUSBAudioDevice.h */,
+				AB680DFB09EB3614006DFC40 /* AppleUSBAudioDictionary.h */,
+				23FF4280FFDF4AD011CA29EB /* AppleUSBAudioEngine.h */,
+				30EF0E590EE8A908000E6C0B /* AppleUSBAudioStream.h */,
+				4D0816F1056DAFDC00D4B902 /* AppleUSBAudioPlugin.h */,
+				B2D5DB8910B23138001E226C /* BigNum.h */,
+			);
+			name = Headers;
+			sourceTree = "<group>";
+		};
+		F6CA800C02AE85F701CD2599 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F6CA800D02AE864A01CD2599 /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3027C4840AE00B1F0010BF7A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30EF0E5A0EE8A908000E6C0B /* AppleUSBAudioStream.h in Headers */,
+				B2D5DB8A10B23138001E226C /* BigNum.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3027C49E0AE00B1F0010BF7A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3027C4800AE00B1F0010BF7A /* AppleUSBAudio (Kernel Extension) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3027C4960AE00B1F0010BF7A /* Build configuration list for PBXNativeTarget "AppleUSBAudio (Kernel Extension)" */;
+			buildPhases = (
+				3027C4830AE00B1F0010BF7A /* ShellScript */,
+				3027C4840AE00B1F0010BF7A /* Headers */,
+				3027C4850AE00B1F0010BF7A /* Resources */,
+				3027C4870AE00B1F0010BF7A /* Sources */,
+				3027C4920AE00B1F0010BF7A /* Frameworks */,
+				3027C4940AE00B1F0010BF7A /* Rez */,
+				3027C4950AE00B1F0010BF7A /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3027C4AA0AE00B1F0010BF7A /* PBXTargetDependency */,
+			);
+			name = "AppleUSBAudio (Kernel Extension)";
+			productInstallPath = "$(SYSTEM_LIBRARY_DIR)/Extensions";
+			productName = "AppleUSBAudio (Bundle)";
+			productReference = 3027C49C0AE00B1F0010BF7A /* AppleUSBAudio.kext */;
+			productType = "com.apple.product-type.kernel-extension.iokit";
+		};
+		3027C49D0AE00B1F0010BF7A /* AppleUSBAudioFloatLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3027C4A30AE00B1F0010BF7A /* Build configuration list for PBXNativeTarget "AppleUSBAudioFloatLib" */;
+			buildPhases = (
+				3027C49E0AE00B1F0010BF7A /* Headers */,
+				3027C49F0AE00B1F0010BF7A /* Sources */,
+				3027C4A10AE00B1F0010BF7A /* Frameworks */,
+				3027C4A20AE00B1F0010BF7A /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AppleUSBAudioFloatLib;
+			productInstallPath = /usr/local/lib;
+			productName = AppleUSBAudioFloatLib;
+			productReference = 3027C4F20AE047AC0010BF7A /* libAppleUSBAudioFloatLib.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0B02CF11FFD831F611CE16D4 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = ABAE40A4086250420084CB61 /* Build configuration list for PBXProject "AppleUSBAudio" */;
+			compatibilityVersion = "Xcode 2.4";
+			hasScannedForEncodings = 1;
+			mainGroup = 0B02CF12FFD831F611CE16D4 /* AppleUSBAudio */;
+			productRefGroup = 0B02CF2FFFD831F611CE16D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3027C4800AE00B1F0010BF7A /* AppleUSBAudio (Kernel Extension) */,
+				3027C49D0AE00B1F0010BF7A /* AppleUSBAudioFloatLib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3027C4850AE00B1F0010BF7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3027C4860AE00B1F0010BF7A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		3027C4940AE00B1F0010BF7A /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3027C4A20AE00B1F0010BF7A /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3027C4830AE00B1F0010BF7A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "script=\"${SYSTEM_DEVELOPER_DIR}/ProjectBuilder Extras/Kernel Extension Support/KEXTPreprocess\";\nif [ -x \"$script\" ]; then\n    . \"$script\"\nfi";
+		};
+		3027C4950AE00B1F0010BF7A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "script=\"${SYSTEM_DEVELOPER_DIR}/ProjectBuilder Extras/Kernel Extension Support/KEXTPostprocess\";\nif [ -x \"$script\" ]; then\n    . \"$script\"\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3027C4870AE00B1F0010BF7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3027C4880AE00B1F0010BF7A /* AppleUSBAudioDevice.cpp in Sources */,
+				3027C48B0AE00B1F0010BF7A /* AppleUSBAudioEngine.cpp in Sources */,
+				3027C4900AE00B1F0010BF7A /* AppleUSBAudioPlugin.cpp in Sources */,
+				3027C4910AE00B1F0010BF7A /* AppleUSBAudioDictionary.cpp in Sources */,
+				30EF0E580EE8A8F9000E6C0B /* AppleUSBAudioStream.cpp in Sources */,
+				B2D5DB8810B23130001E226C /* BigNum.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3027C49F0AE00B1F0010BF7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3027C4A00AE00B1F0010BF7A /* AppleUSBAudioClip.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3027C4AA0AE00B1F0010BF7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3027C49D0AE00B1F0010BF7A /* AppleUSBAudioFloatLib */;
+			targetProxy = 3027C4A90AE00B1F0010BF7A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F6CA800D02AE864A01CD2599 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6CA800E02AE864A01CD2599 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3027C4970AE00B1F0010BF7A /* USBLogging */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					i386,
+					ppc,
+					"$(ARCHS_STANDARD_64_BIT)",
+				);
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					DEBUG,
+					__USE_USBLOG_FOR_AUA_MESSAGES__,
+					DEBUGLOGGING,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_OTHER_PREPROCESSOR_FLAGS = "-I. -xassembler-with-cpp";
+				INSTALL_PATH = "$(SYSTEM_LIBRARY_DIR)/Extensions";
+				KERNEL_MODULE = YES;
+				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/build/Deployment\"";
+				MODULE_IOKIT = YES;
+				MODULE_NAME = com.apple.driver.AppleUSBAudio;
+				MODULE_VERSION = 2.7.3f1;
+				OTHER_CFLAGS = "-Wno-format";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = AppleUSBAudio;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = kext;
+				ZERO_LINK = YES;
+			};
+			name = USBLogging;
+		};
+		3027C4980AE00B1F0010BF7A /* kprintfLogging */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					i386,
+					ppc,
+					"$(ARCHS_STANDARD_64_BIT)",
+				);
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					DEBUG,
+					__USE_FIREWIRE_KPRINTF_FOR_AUA_MESSAGES__,
+					DEBUGLOGGING,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_OTHER_PREPROCESSOR_FLAGS = "-I. -xassembler-with-cpp";
+				INSTALL_PATH = "$(SYSTEM_LIBRARY_DIR)/Extensions";
+				KERNEL_MODULE = YES;
+				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/build/Deployment\"";
+				MODULE_IOKIT = YES;
+				MODULE_NAME = com.apple.driver.AppleUSBAudio;
+				MODULE_VERSION = 2.7.3f1;
+				OTHER_CFLAGS = "-Wno-format";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = AppleUSBAudio;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = kext;
+				ZERO_LINK = YES;
+			};
+			name = kprintfLogging;
+		};
+		3027C4990AE00B1F0010BF7A /* FireLogging */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					i386,
+					ppc,
+					"$(ARCHS_STANDARD_64_BIT)",
+				);
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					DEBUG,
+					__USE_FIRELOG_FOR_AUA_MESSAGES__,
+					DEBUGLOGGING,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_OTHER_PREPROCESSOR_FLAGS = "-I. -xassembler-with-cpp";
+				INSTALL_PATH = "$(SYSTEM_LIBRARY_DIR)/Extensions";
+				KERNEL_MODULE = YES;
+				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/build/Deployment\"";
+				MODULE_IOKIT = YES;
+				MODULE_NAME = com.apple.driver.AppleUSBAudio;
+				MODULE_VERSION = 2.7.3f1;
+				OTHER_CFLAGS = "-Wno-format";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = AppleUSBAudio;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = kext;
+				ZERO_LINK = YES;
+			};
+			name = FireLogging;
+		};
+		3027C49A0AE00B1F0010BF7A /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					i386,
+					ppc,
+					"$(ARCHS_STANDARD_64_BIT)",
+				);
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_OTHER_PREPROCESSOR_FLAGS = "-I. -xassembler-with-cpp";
+				INSTALL_PATH = "$(SYSTEM_LIBRARY_DIR)/Extensions";
+				KERNEL_MODULE = YES;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/build/Deployment\"";
+				MODULE_IOKIT = YES;
+				MODULE_NAME = com.apple.driver.AppleUSBAudio;
+				MODULE_VERSION = 2.7.3f1;
+				OTHER_CFLAGS = "-Wno-format";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = AppleUSBAudio;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = kext;
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		3027C4A40AE00B1F0010BF7A /* USBLogging */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					i386,
+					ppc,
+					"$(ARCHS_STANDARD_64_BIT)",
+				);
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					KERNEL,
+					KERNEL_PRIVATE,
+					DRIVER_PRIVATE,
+					APPLE,
+					NeXT,
+					DEBUG,
+					DEBUGLOGGING,
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(SYSTEM_LIBRARY_DIR)/Frameworks/Kernel.framework/Headers",
+					"$(SYSTEM_LIBRARY_DIR)/Frameworks/Kernel.framework/Headers/bsd",
+				);
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = (
+					"-nostdinc",
+					"-finline",
+					"-fno-keep-inline-functions",
+					"-force_cpusubtype_ALL",
+					"-fcheck-new",
+					"-static",
+					"$(OTHER_CFLAGS_$(arch))",
+				);
+				OTHER_CFLAGS_removed = "-mlong-branch";
+				OTHER_CFLAGS_x86_64 = "-mkernel";
+				OTHER_LDFLAGS = "-static";
+				OTHER_LIBTOOL_FLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = AppleUSBAudioFloatLib;
+				REZ_EXECUTABLE = YES;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				ZERO_LINK = YES;
+			};
+			name = USBLogging;
+		};
+		3027C4A50AE00B1F0010BF7A /* kprintfLogging */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					i386,
+					ppc,
+					"$(ARCHS_STANDARD_64_BIT)",
+				);
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					KERNEL,
+					KERNEL_PRIVATE,
+					DRIVER_PRIVATE,
+					APPLE,
+					NeXT,
+					DEBUG,
+					DEBUGLOGGING,
+					DEBUGLOG_TO_KPRINTF,
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(SYSTEM_LIBRARY_DIR)/Frameworks/Kernel.framework/Headers",
+					"$(SYSTEM_LIBRARY_DIR)/Frameworks/Kernel.framework/Headers/bsd",
+				);
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = (
+					"-nostdinc",
+					"-finline",
+					"-fno-keep-inline-functions",
+					"-force_cpusubtype_ALL",
+					"-fcheck-new",
+					"-static",
+					"$(OTHER_CFLAGS_$(arch))",
+				);
+				OTHER_CFLAGS_removed = "-mlong-branch";
+				OTHER_CFLAGS_x86_64 = "-mkernel";
+				OTHER_LDFLAGS = "-static";
+				OTHER_LIBTOOL_FLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = AppleUSBAudioFloatLib;
+				REZ_EXECUTABLE = YES;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				ZERO_LINK = YES;
+			};
+			name = kprintfLogging;
+		};
+		3027C4A60AE00B1F0010BF7A /* FireLogging */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					i386,
+					ppc,
+					"$(ARCHS_STANDARD_64_BIT)",
+				);
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					KERNEL,
+					KERNEL_PRIVATE,
+					DRIVER_PRIVATE,
+					APPLE,
+					NeXT,
+					DEBUG,
+					DEBUGLOGGING,
+					__USE_FIRELOG_FOR_AUA_MESSAGES__,
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(SYSTEM_LIBRARY_DIR)/Frameworks/Kernel.framework/Headers",
+					"$(SYSTEM_LIBRARY_DIR)/Frameworks/Kernel.framework/Headers/bsd",
+				);
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = (
+					"-nostdinc",
+					"-finline",
+					"-fno-keep-inline-functions",
+					"-force_cpusubtype_ALL",
+					"-fcheck-new",
+					"-static",
+					"$(OTHER_CFLAGS_$(arch))",
+				);
+				OTHER_CFLAGS_removed = "-mlong-branch";
+				OTHER_CFLAGS_x86_64 = "-mkernel";
+				OTHER_LDFLAGS = "-static";
+				OTHER_LIBTOOL_FLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = AppleUSBAudioFloatLib;
+				REZ_EXECUTABLE = YES;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				ZERO_LINK = YES;
+			};
+			name = FireLogging;
+		};
+		3027C4A70AE00B1F0010BF7A /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					i386,
+					ppc,
+					"$(ARCHS_STANDARD_64_BIT)",
+				);
+				COPY_PHASE_STRIP = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_EXTENSION = a;
+				EXECUTABLE_PREFIX = lib;
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					KERNEL,
+					KERNEL_PRIVATE,
+					DRIVER_PRIVATE,
+					APPLE,
+					NeXT,
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(SYSTEM_LIBRARY_DIR)/Frameworks/Kernel.framework/Headers",
+					"$(SYSTEM_LIBRARY_DIR)/Frameworks/Kernel.framework/Headers/bsd",
+				);
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = (
+					"-nostdinc",
+					"-finline",
+					"-fno-keep-inline-functions",
+					"-force_cpusubtype_ALL",
+					"-fcheck-new",
+					"-static",
+					"$(OTHER_CFLAGS_$(arch))",
+				);
+				OTHER_CFLAGS_removed = "-mlong-branch";
+				OTHER_CFLAGS_x86_64 = "-mkernel";
+				OTHER_LDFLAGS = "-static";
+				OTHER_LIBTOOL_FLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = AppleUSBAudioFloatLib;
+				REZ_EXECUTABLE = YES;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		ABAE40A5086250420084CB61 /* USBLogging */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				GCC_PREPROCESSOR_DEFINITIONS_NOT_USED_IN_PRECOMPS = "";
+				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_OTHER_PREPROCESSOR_FLAGS = "-I.";
+				INFOPLIST_PREPROCESS = YES;
+				INFOPLIST_PREPROCESSOR_DEFINITIONS = (
+					DEBUG,
+					__USE_USBLOG_FOR_AUA_MESSAGES__,
+				);
+			};
+			name = USBLogging;
+		};
+		ABAE40A6086250420084CB61 /* kprintfLogging */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				INFOPLIST_OTHER_PREPROCESSOR_FLAGS = "-I. -xassembler-with-cpp";
+				INFOPLIST_PREPROCESS = YES;
+				INFOPLIST_PREPROCESSOR_DEFINITIONS = (
+					DEBUG,
+					__USE_FIREWIRE_KPRINTF_FOR_AUA_MESSAGES__,
+				);
+			};
+			name = kprintfLogging;
+		};
+		ABAE40A7086250420084CB61 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				GCC_PREPROCESSOR_DEFINITIONS_NOT_USED_IN_PRECOMPS = "";
+				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_OTHER_PREPROCESSOR_FLAGS = "-I.";
+				INFOPLIST_PREPROCESS = YES;
+			};
+			name = Deployment;
+		};
+		ABAE40BE086258A30084CB61 /* FireLogging */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				INFOPLIST_OTHER_PREPROCESSOR_FLAGS = "-I.";
+				INFOPLIST_PREPROCESS = YES;
+				INFOPLIST_PREPROCESSOR_DEFINITIONS = (
+					DEBUG,
+					__USE_FIRELOG_FOR_AUA_MESSAGES__,
+				);
+			};
+			name = FireLogging;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3027C4960AE00B1F0010BF7A /* Build configuration list for PBXNativeTarget "AppleUSBAudio (Kernel Extension)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3027C4970AE00B1F0010BF7A /* USBLogging */,
+				3027C4980AE00B1F0010BF7A /* kprintfLogging */,
+				3027C4990AE00B1F0010BF7A /* FireLogging */,
+				3027C49A0AE00B1F0010BF7A /* Deployment */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Deployment;
+		};
+		3027C4A30AE00B1F0010BF7A /* Build configuration list for PBXNativeTarget "AppleUSBAudioFloatLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3027C4A40AE00B1F0010BF7A /* USBLogging */,
+				3027C4A50AE00B1F0010BF7A /* kprintfLogging */,
+				3027C4A60AE00B1F0010BF7A /* FireLogging */,
+				3027C4A70AE00B1F0010BF7A /* Deployment */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Deployment;
+		};
+		ABAE40A4086250420084CB61 /* Build configuration list for PBXProject "AppleUSBAudio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABAE40A5086250420084CB61 /* USBLogging */,
+				ABAE40A6086250420084CB61 /* kprintfLogging */,
+				ABAE40BE086258A30084CB61 /* FireLogging */,
+				ABAE40A7086250420084CB61 /* Deployment */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Deployment;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0B02CF11FFD831F611CE16D4 /* Project object */;
+}

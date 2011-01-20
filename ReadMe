@@ -1,0 +1,9 @@
+This ReadMe file for the Apple USB Audio Drivers on OS X contains
+a brief overview of the files this directory:
+
+AppleUSBAudioEngine contains the classes AppleUSBAudioEngine which inherits from IOAudioEngine.
+This class is responsible for streaming the audio.  It sets up the framelists and requests
+DMA IO from the IOUSBInterface and IOUSBFindEndpointRequest, using IOUSBLowLatencyIsocFrame
+and IOUSBDevRequest, then receives completion from IOUSBCompletion.
+
+
